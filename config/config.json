@@ -1,0 +1,42 @@
+{ 
+  "apiId": "API01",
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "database": "database002"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3200
+  },
+  "logs": { 
+    "level": "debug", 
+    "logToFile": true 
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "administrador@gmail.com",
+      "pass": "password"
+    },
+    "tls": { 
+      "rejectUnauthorized": false 
+    }
+  },
+  "email": {
+    "from": "administrador@gmail.com"
+  },
+  "web": {
+    "url": "http://localhost:4000"
+  },
+  "api": {
+    "url": "http://localhost:3200"
+  },
+  "pagination": {
+    "maxLimit": 5,
+    "defaultLimit": 5
+  }
+}
